@@ -18,7 +18,7 @@ jobs:
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@v3.1.0
         env:
-          SONAR_TOKEN: ${{ secrets.26fdd38d2064572fe499715527194b29ebea5fc4 }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
             -Dsonar.organization=AbhishaOrganization
