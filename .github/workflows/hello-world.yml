@@ -7,7 +7,7 @@ jobs:
       - name: my-step
         run: echo "Hello World!"
         
-      - name: Checkout Code
+      - name: CheckoutCode
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
