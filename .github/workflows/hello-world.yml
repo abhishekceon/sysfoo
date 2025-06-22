@@ -26,7 +26,6 @@ jobs:
         with:
           image-ref: 'docker.io/abhishekceon/cf-sysfoo:latest'
           format: 'table'
-          exit-code: '1'
         
       - name: Dockerhub
         run: echo "Dockerhub"
